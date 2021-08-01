@@ -1,0 +1,37 @@
+h1 {
+  color: teal;
+}
+
+body {
+  font-family: "Chivo", sans-serif;
+}
+
+section {
+  background: hsl(222deg 37% 11%);
+  color: white;
+  padding: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.singer-img {
+  height: 15rem;
+  width: 20rem;
+  position: absolute;
+  background: url("https://cdn.mos.cms.futurecdn.net/b2EjCkayCQnT6NMRcFXBwJ.jpg")
+    no-repeat;
+  background-size: contain;
+  border-style: none;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.info-container {
+  z-index: 100;
+  background: hsl(222deg 37% 11%);
+}
+
+.img {
+  object-fit: contain;
+}
